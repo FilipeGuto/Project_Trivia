@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') ;
+
+* {
+  box-sizing: border-box;
+  font-family: Poppins , sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.correct-answer:disabled {
+  background-color: rgb(6, 240, 15);
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.wrong-answer:disabled {
+  background-color: red;
+  border: 3px solid red;
+}
+
+.correct-answer:disabled:hover {
+  background-color: rgb(13, 214, 19);
+  border: 3px solid rgb(13, 214, 19);
+  cursor: auto;
+}
+
+.wrong-answer:disabled:hover {
+  background-color: rgb(235, 0, 0);
+  border: 3px solid rgb(235, 0, 0);
+  cursor: auto;
+}
+
+.App-body {
+  align-items: center;
+  background-color: rgb(40, 44, 52);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding: 2em;
+  width: 100%;
+}
+
+.login-form-container {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+}
+
+.login-form {
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  padding: 2em;
+  width: 20em;
+}
+
+.login-form input {
+  border: 0.5px solid rgb(40, 44, 52);
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+.login-form button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  transition: 300ms ease;
+  width: 10em;
+}
+
+.btn-play:enabled {
+  background-color: rgb(0, 204, 153);
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+
+.btn-play:enabled:hover {
+  background-color: rgb(0, 235, 176);
+}
+
+.btn-settings {
+  background-color: rgb(144, 46, 255);
+  color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+
+.btn-settings:enabled:hover {
+  background-color: rgb(160, 77, 255);
+}
+
+.trivia-header {
+  align-items: center;
+  background-color: rgb(0, 112, 204);
+  color: rgb(250, 250, 250);
+  display: flex;
+  height: 15vh;
+  padding: 0.5em;
+}
+
+.player-info-container {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  justify-content: center;
+  justify-self: flex-start;
+  width: 15%;
+}
+
+.player-info-container img {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.player-info-container p {
+  text-shadow: 0 0 4px rgb(12, 209, 216);
+}
+
+.header-score {
+  color: rgb(243, 243, 243);
+  font-size: 3em;
+  margin-left: 30%;
+  text-transform: uppercase;
+}
+
+.trivia-game {
+  align-items: center;
+  background-color: rgb(240, 253, 255);
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+}
+
+.trivia-game-container {
+  align-items: center;
+  background: radial-gradient (
+    circle , rgba(253, 253, 253, 1) 80%,
+    rgb(249, 249, 249) 100%
+  );
+  border: 2px solid rgba(0, 112, 204, 0.5);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-around;
+  padding: 1em;
+  width: 50vw;
+}
+
+.trivia-game button {
+  background-color: rgb(28, 130, 247);
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: 600;
+  margin-right: 1em;
+  padding: 0.5em;
+}
+
+.ranking-page button {
+  background-color: rgb(28, 130, 247);
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: 600;
+  margin-right: 1em;
+  padding: 0.5em;
+}
+
+.trivia-game button:hover {
+  background-color: rgb(52, 147, 255);
+  cursor: pointer;
+}
+
+.trivia-game-question {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+.trivia-game-buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.feedback-page {
+  align-items: center;
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+}
+
+.feedback-container {
+  align-items: center;
+  background: radial-gradient(circle, rgb(253, 253, 253) 80%, rgb(249, 249, 249) 100%);
+  border: 2px solid rgba(0, 112, 204, 0.5);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: space-around;
+  padding: 1em;
+  width: 20vw;
+}
+
+.feedback-container .fdtxt {
+  font-weight: 600;
+}
+
+.feedback-container .btn-play-again {
+  background-color: rgb(0, 204, 153);
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: 600;
+  margin-right: 1em;
+  padding: 0.5em;
+}
+
+.feedback-container .btn-play-again:hover {
+  background-color: rgb(0, 235, 176);
+}
+
+.feedback-container .btn-ranking {
+  background-color: rgb(144, 46, 255);
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-weight: 600;
+  margin-right: 1em;
+  padding: 0.5em;
+}
+
+.feedback-container .btn-ranking:hover {
+  background-color: rgb(160, 77, 255);
+}
+
+.feedback-container button:hover {
+  cursor: pointer;
+}
+
+.ranking-page {
+  height: 100vh;
+  width: 100vw;
+}
+
+.players-ranking {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ranking-page h1 {
+  margin: 0 0 0 43%;
+}
+
+.player-ranking {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.btn-go-home {
+  margin: 0 0 0 48%;
+}
+
+.ranking-page button:hover {
+  background-color: rgb(52, 147, 255);
+  cursor: pointer;
+}
