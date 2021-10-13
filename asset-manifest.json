@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FilipeGuto/Project_Trivia/static/css/main.d2513c11.chunk.css",
+    "main.js": "/FilipeGuto/Project_Trivia/static/js/main.8ec4a9af.chunk.js",
+    "main.js.map": "/FilipeGuto/Project_Trivia/static/js/main.8ec4a9af.chunk.js.map",
+    "runtime-main.js": "/FilipeGuto/Project_Trivia/static/js/runtime-main.4548e4d3.js",
+    "runtime-main.js.map": "/FilipeGuto/Project_Trivia/static/js/runtime-main.4548e4d3.js.map",
+    "static/js/2.c0f60007.chunk.js": "/FilipeGuto/Project_Trivia/static/js/2.c0f60007.chunk.js",
+    "static/js/2.c0f60007.chunk.js.map": "/FilipeGuto/Project_Trivia/static/js/2.c0f60007.chunk.js.map",
+    "index.html": "/FilipeGuto/Project_Trivia/index.html",
+    "precache-manifest.015673b500d3fdeff3b2c5553a22c348.js": "/FilipeGuto/Project_Trivia/precache-manifest.015673b500d3fdeff3b2c5553a22c348.js",
+    "service-worker.js": "/FilipeGuto/Project_Trivia/service-worker.js",
+    "static/css/main.d2513c11.chunk.css.map": "/FilipeGuto/Project_Trivia/static/css/main.d2513c11.chunk.css.map",
+    "static/js/2.c0f60007.chunk.js.LICENSE": "/FilipeGuto/Project_Trivia/static/js/2.c0f60007.chunk.js.LICENSE",
+    "static/media/trivia.png": "/FilipeGuto/Project_Trivia/static/media/trivia.466d153e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4548e4d3.js",
+    "static/js/2.c0f60007.chunk.js",
+    "static/css/main.d2513c11.chunk.css",
+    "static/js/main.8ec4a9af.chunk.js"
+  ]
+}
